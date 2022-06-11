@@ -22,6 +22,12 @@ public class AmazonPage {
     @FindBy(xpath = "(//div[@class='a-section a-spacing-small a-spacing-top-small'])[1]")
     public WebElement carSonucYazisiElementi;
 
+    @FindBy(xpath = "(//span[@class='a-button-text'])[1]")
+    public WebElement homepageAlert;
+
+    @FindBy(xpath = "//input[@id='nav-bb-search']")
+    public WebElement otherAmazonPage;
+
 
 
 }

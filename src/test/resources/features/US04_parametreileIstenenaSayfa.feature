@@ -1,5 +1,5 @@
-proje dogru
-Feature: US04 parametre ile IstenenaSayfa
+
+Feature: US04 parametre ile Istenen Sayfa
 
   Scenario:  TC-06 Eski usul amazona gitme
 

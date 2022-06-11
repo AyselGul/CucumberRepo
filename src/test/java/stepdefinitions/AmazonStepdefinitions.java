@@ -9,9 +9,9 @@ import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class AmazonStepDefinitions {
+public class AmazonStepdefinitions {
 
-    AmazonPage amazonPage;
+    AmazonPage amazonPage = new AmazonPage();
 
     @Given("kullanici amazon sayfasina gider")
     public void kullanici_amazon_sayfasina_gider() {
@@ -21,7 +21,9 @@ public class AmazonStepDefinitions {
 
     @And("flower icin arama yapar")
     public void flowerIcinAramaYapar() {
-        amazonPage = new AmazonPage();
+        Driver.getDriver().switchTo().alert();
+        amazonPage.homepageAlert.click();
+        amazonPage.amazonSearchbox.click();
         amazonPage.amazonSearchbox.sendKeys("flower", Keys.ENTER);
 
     }
@@ -49,12 +51,10 @@ public class AmazonStepDefinitions {
         amazonPage.amazonSearchbox.sendKeys("car", Keys.ENTER);
     }
 
-
     @Then("sonuclarin car icerdigini test eder")
     public void sonuclarinCarIcerdiginiTestEder() {
         Assert.assertTrue(amazonPage.carSonucYazisiElementi.isDisplayed());
     }
-
 
     @And("sayfayi kapatir")
     public void sayfayiKapatir() {
@@ -64,24 +64,21 @@ public class AmazonStepDefinitions {
 
     @And("{string} icin arama yapar")
     public void icinAramaYapar(String arananKelime) {
+
+        amazonPage.amazonSearchbox.click();
         amazonPage.amazonSearchbox.sendKeys(arananKelime, Keys.ENTER);
-
-
     }
 
     @Then("sonuclarin {string} icerdigini test eder")
     public void sonuclarinIcerdiginiTestEder(String arananKelime) {
+        Assert.assertTrue(amazonPage.flowerSonucYazisiElementi.isDisplayed());
+
     }
 
     @Given("kullanici {string} sayfasina gider")
     public void kullaniciSayfasinaGider(String requiredUrl) {
-
         Driver.getDriver().get(ConfigReader.getProperty(requiredUrl));
-
     }
-
-
-
 
 }
 

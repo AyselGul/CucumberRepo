@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features",
   glue = "stepdefinitions",
-  tags = "@hotelN",
-  dryRun = false)
+  tags = "@editor",
+  dryRun = true)
 
 
 public class Runner {

@@ -32,13 +32,22 @@ public class HMCstepdefinitions {
     @Then("basarili olarak giris yapildigini test eder")
     public void basarili_olarak_giris_yapildigini_test_eder() {
         Assert.assertTrue(hmc.listOfUsersYaziElementi.isDisplayed());
-
     }
-
 
     @And("giris yapilamadigini test eder")
     public void girisYapilamadiginiTestEder() {
         Assert.assertTrue(hmc.girisYapilamadiYaziElementi.isDisplayed());
 
+    }
+
+    @Then("scenarion outline'dan username olarak {string} yazar")
+    public void scenarionOutlineDanUsernameOlarakYazar(String username) {
+        hmc.usernameBox.sendKeys(username);
+
+    }
+
+    @Then("scenarion outline'dan password olarak {string} yazar")
+    public void scenarionOutlineDanPasswordOlarakYazar(String password) {
+        hmc.passwordBox.sendKeys(password);
     }
 }
