@@ -1,7 +1,7 @@
 @editor
 Feature: US09 Editor Register
 
-  Scenario Outline: Kullanici yeni kayit ekleyebilmeli
+  Scenario Outline: TC-13 Kullanici yeni kayit ekleyebilmeli
 
     Given kullanici editor gider
     Then new butonuna basar

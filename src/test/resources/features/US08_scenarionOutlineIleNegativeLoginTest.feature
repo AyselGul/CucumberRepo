@@ -1,7 +1,7 @@
 @SO
 Feature: US08 Negative login Test
 
-  Scenario Outline: TC-13 Username and Password
+  Scenario Outline: TC-12 Username and Password
 
     Given kullanici "HMCUrl" sayfasina gider
     Then login linkine tiklar

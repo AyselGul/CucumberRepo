@@ -13,39 +13,6 @@ public class EditorDataTablesPage {
     public EditorDataTablesPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-    /*
-   @FindBy(xpath = "//button[@class='dt-button buttons-create']")
-    public WebElement editorPageNewButton;
-
-     @FindBy(xpath = "(//input[@type='text']_[1]")
-     public WebElement firstNamePrompt;
-
-     @FindBy(xpath = "//button[text()='Create']")
-     public WebElement editorPageCreateButton;
-
-    @FindBy(xpath = "//input[@id='DTE_Field_first_name']")
-    public WebElement lastNamePrompt;
-
-    @FindBy(xpath = "//input[@id='DTE_Field_first_name']")
-    public WebElement positionPrompt;
-
-    @FindBy(xpath = "//input[@id='DTE_Field_first_name']")
-    public WebElement officePrompt;
-
-    @FindBy(xpath = "//input[@id='DTE_Field_first_name']")
-    public WebElement extentionPrompt;
-
-    @FindBy(xpath = "//input[@id='DTE_Field_first_name']")
-    public WebElement startDatePrompt;
-
-    @FindBy(xpath = "//input[@id='DTE_Field_first_name']")
-    public WebElement salaryPrompt;
-
-    @FindBy(xpath = "//input[@type='search']")
-    public WebElement editorSearchBox;
-
-     @FindBy(xpath = "(//td[@class='sorting_1'])[1]")
-     public WebElement editorFirstRow;*/
 
 
  @FindBy(xpath = "//button[@class='dt-button buttons-create']")

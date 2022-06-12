@@ -4,12 +4,12 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import pages.AutoExercisePage;
+import pages.US03_AutoExercisePage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
 public class AutoExerciseStepdefinitions {
-    AutoExercisePage autoExercisePage;
+    US03_AutoExercisePage autoExercisePage;
 
 
     @Given("Navigate to url {string}")
@@ -19,7 +19,7 @@ public class AutoExerciseStepdefinitions {
 
     @Then("Verify that home page is visible successfully")
     public void verify_that_home_page_is_visible_successfully() {
-        autoExercisePage= new AutoExercisePage();
+        autoExercisePage= new US03_AutoExercisePage();
         Assert.assertTrue(autoExercisePage.automationExerciseWebelement.isDisplayed());
 
     }

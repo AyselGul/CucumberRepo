@@ -5,8 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class AutoExercisePage {
-   public AutoExercisePage(){
+public class US03_AutoExercisePage {
+   public US03_AutoExercisePage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 

@@ -1,7 +1,7 @@
 @editor
 Feature: US09 Editor Register
 
-  Scenario Outline: Kullanici yeni kayit ekleyebilmeli
+  Scenario Outline: TC-13 Kullanici yeni kayit ekleyebilmeli
 
     Given kullanici editor gider
     Then new butonuna basar
@@ -23,6 +23,6 @@ Feature: US09 Editor Register
     Examples:
     |firstname|lastname|position|office|extention|startDate|salary|
     |Ayla     |Demir   |QA      |UK    |2021|2001-05-01|560|
-    |Demir    |Celik   |DEV     |INDIA |2022|2001-05-01|450 |
-
-
+    |Demir    |Celik   |DEV     |INDIA |2022|2022-00-15|450 |
+    |Zeynep   |Toprak  |DevOPs  |POLAND |2000|2009-07-12|10000 |
+    |Oyku     |Kiziltoprak |QA  |MACEDONIA |2013|2023-05-23|1550 |
