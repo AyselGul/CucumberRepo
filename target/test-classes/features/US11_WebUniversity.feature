@@ -8,7 +8,7 @@ Feature: US11 Web University
     And Login Portal'a  tiklar
     Then acilan diger window'a gecer
     And "<username>" ve  "<password>" kutularina deger yazdirin
-    And WebUniversity Login butonuna basar
+   # And WebUniversity Login butonuna basar
     And 2 saniye bekler
     And Popup'ta cikan yazinin "validation failed" oldugunu test eder
     Then Ok diyerek Popup'i kapatir
@@ -17,5 +17,5 @@ Feature: US11 Web University
    # And sayfayi kapatir
 
   Examples:
-    |username|password
-    |mamak   |mamak1
+    |username|password|
+    |mamak   |mamak1  |
