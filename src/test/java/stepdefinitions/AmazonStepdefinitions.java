@@ -4,14 +4,21 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
 import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class AmazonStepdefinitions {
 
     AmazonPage amazonPage = new AmazonPage();
+    Actions actions = new Actions(Driver.getDriver());
 
     @Given("kullanici amazon sayfasina gider")
     public void kullanici_amazon_sayfasina_gider() {
@@ -21,13 +28,10 @@ public class AmazonStepdefinitions {
 
     @And("flower icin arama yapar")
     public void flowerIcinAramaYapar() {
-        Driver.getDriver().switchTo().alert();
-        amazonPage.homepageAlert.click();
-        amazonPage.amazonSearchbox.click();
+
         amazonPage.amazonSearchbox.sendKeys("flower", Keys.ENTER);
 
     }
-
 
     @Then("sonuclarin flower icerdigini test eder")
     public void sonuclarinFlowerIcerdiginiTestEder() {
@@ -56,8 +60,7 @@ public class AmazonStepdefinitions {
         Assert.assertTrue(amazonPage.carSonucYazisiElementi.isDisplayed());
     }
 
-    @And("sayfayi kapatir")
-    public void sayfayiKapatir() {
+      public void sayfayiKapatir() {
         Driver.closeDriver();
     }
 

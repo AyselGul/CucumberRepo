@@ -1,0 +1,273 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-14T13:12:19.635Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC-01 Amazon test",
+        "description": "",
+        "id": "us01-amazon-search;tc-01-amazon-test",
+        "after": [
+          {
+            "result": {
+              "duration": 325491300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5632589300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2008497300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "2 saniye bekler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.EditorStepdefinitions.saniyeBekler(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3864362200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "flower icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.flowerIcinAramaYapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106494100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sonuclarin flower icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.sonuclarinFlowerIcerdiginiTestEder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1733165300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3799157300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "crayon icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.crayonIcinAramaYapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62497600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "sonuclarin crayon icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.sonuclarinCrayonIcerdiginiTestEder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1169989400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2402822900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "car icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.carIcinAramaYapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90052000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "sonuclarin car icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.sonuclarinCarIcerdiginiTestEder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@p1"
+          }
+        ]
+      }
+    ],
+    "name": "US01 amazon search",
+    "description": "",
+    "id": "us01-amazon-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US01_amazonsearch.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-14T13:12:40.873Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC-05 Parametre kullanim",
+        "description": "",
+        "id": "us03-parameterusage;tc-05-parametre-kullanim",
+        "after": [
+          {
+            "result": {
+              "duration": 290944600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 821821700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2624341000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"park\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"park\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepdefinitions.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54222300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sonuclarin \"park\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"park\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepdefinitions.sonuclarinIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@p1"
+          }
+        ]
+      }
+    ],
+    "name": "US03 parameterUsage",
+    "description": "",
+    "id": "us03-parameterusage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US03_parameterUsage.feature",
+    "tags": []
+  }
+]

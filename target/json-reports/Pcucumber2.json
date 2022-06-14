@@ -1,0 +1,269 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "amazon sayfasina gidis",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5104603400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T13:12:19.526Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "TC-02 Amazon crayon Search Testi",
+        "description": "",
+        "id": "us02-background-ile-amazon-search-testi;tc-02-amazon-crayon-search-testi",
+        "after": [
+          {
+            "result": {
+              "duration": 674151600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2644491600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "crayon icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.crayonIcinAramaYapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 491472300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sonuclarin crayon icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.sonuclarinCrayonIcerdiginiTestEder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@p2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "amazon sayfasina gidis",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1443247700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T13:12:28.480Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TC-03 Amazon car Search Testi",
+        "description": "",
+        "id": "us02-background-ile-amazon-search-testi;tc-03-amazon-car-search-testi",
+        "after": [
+          {
+            "result": {
+              "duration": 354516600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2892888200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "car icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.carIcinAramaYapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83461300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "sonuclarin car icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.sonuclarinCarIcerdiginiTestEder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@p2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "amazon sayfasina gidis",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1190059600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T13:12:33.276Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "TC-04 Amazon flower  Search Testi",
+        "description": "",
+        "id": "us02-background-ile-amazon-search-testi;tc-04-amazon-flower--search-testi",
+        "after": [
+          {
+            "result": {
+              "duration": 618574700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2746059200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "flower icin arama yapar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.flowerIcinAramaYapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52950500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "sonuclarin flower icerdigini test eder",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinitions.sonuclarinFlowerIcerdiginiTestEder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@p2"
+          }
+        ]
+      }
+    ],
+    "name": "US02 Background ile amazon search testi",
+    "description": "",
+    "id": "us02-background-ile-amazon-search-testi",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US02_background.feature",
+    "tags": [
+      {
+        "name": "@p2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,3 +1,4 @@
+@p2
 Feature: US02 Background ile amazon search testi
 
   Background: amazon sayfasina gidis

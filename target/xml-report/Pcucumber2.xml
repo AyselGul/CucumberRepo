@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="18.565">
+    <testcase classname="US02 Background ile amazon search testi" name="TC-02 Amazon crayon Search Testi" time="8.93">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And crayon icin arama yapar.................................................passed
+Then sonuclarin crayon icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US02 Background ile amazon search testi" name="TC-03 Amazon car Search Testi" time="4.778">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And car icin arama yapar....................................................passed
+Then sonuclarin car icerdigini test eder....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US02 Background ile amazon search testi" name="TC-04 Amazon flower  Search Testi" time="4.612">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And flower icin arama yapar.................................................passed
+Then sonuclarin flower icerdigini test eder.................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

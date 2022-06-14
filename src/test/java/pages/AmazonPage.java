@@ -23,7 +23,7 @@ public class AmazonPage {
     public WebElement carSonucYazisiElementi;
 
     @FindBy(xpath = "(//span[@class='a-button-text'])[1]")
-    public WebElement homepageAlert;
+    public WebElement dontchangeAlert;
 
     @FindBy(xpath = "//input[@id='nav-bb-search']")
     public WebElement otherAmazonPage;
